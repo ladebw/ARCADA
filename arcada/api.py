@@ -82,7 +82,12 @@ def _validate_target(target: str) -> str:
     # Allow URLs
     if target.startswith(("http://", "https://")):
         return target
-
+    # Detect Windows absolute paths like C:\ or D:\
+    if re.match(r"^[a-zA-Z]:\\", target):
+       raise HTTPException(
+        status_code=400,
+        detail="Windows absolute paths are not allowed. Use a GitHub URL or paste code directly.",
+    )
     # Reject absolute paths
     if os.path.isabs(target) or target.startswith("/") or target.startswith("\\"):
         raise HTTPException(
