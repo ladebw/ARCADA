@@ -1,8 +1,24 @@
-# ARCADA — AI Runtime & Trust Evaluator
+<p align="center">
+  <h1>ARCADA — AI Runtime & Trust Evaluator</h1>
+</p>
 
-**Zero-trust security auditor for AI systems, LLM infrastructure, agent frameworks, and supply-chain attacks.**
+<p align="center">
+  <img src="assets/preview.png" width="800"/>
+</p>
 
-ARCADA runs 27 specialized security scanners across your codebase, then uses DeepSeek Chat (V3) to synthesize findings into a prioritized report with severity scores, attacker-perspective impact analysis, and actionable remediations. Basic scans use 5 fast scanners for quick results, while deep scans run all 27 scanners for comprehensive analysis.
+<p align="center">
+  <b>Zero-trust security auditor for AI systems, LLM infrastructure, agent frameworks, and supply-chain attacks.</b>
+</p>
+
+<p align="center">
+  ARCADA runs 27 specialized security scanners across your codebase, then uses DeepSeek Chat (V3) to synthesize findings into a prioritized report with severity scores, attacker-perspective impact analysis, and actionable remediations.
+  <br/><br/>
+  Basic scans use 5 fast scanners for quick results, while deep scans run all 27 scanners for comprehensive analysis.
+</p>
+
+<p align="center">
+  <b>ARCADA v0.1.0</b> · Python 3.9+ · MIT License · Zero Runtime Deps · PRs Welcome
+</p>
 
 ---
 
