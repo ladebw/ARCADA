@@ -1,7 +1,7 @@
 <h1 align="center">ARCADA — AI Runtime & Trust Evaluator</h1>
 
 <p align="center">
-  <img src="assets/preview.png" width="800"/>
+  <img src="assets/preview.PNG" width="800"/>
 </p>
 
 <p align="center">
