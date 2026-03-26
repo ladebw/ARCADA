@@ -15,7 +15,11 @@
 </p>
 
 <p align="center">
-  <b>ARCADA v0.1.0</b> · Python 3.9+ · MIT License · Zero Runtime Deps · PRs Welcome
+  <img src="https://img.shields.io/badge/Python-3.9+-blue?logo=python"/>
+  <img src="https://img.shields.io/badge/License-MIT-green"/>
+  <img src="https://img.shields.io/badge/Version-0.1.0-orange"/>
+  <img src="https://img.shields.io/badge/Zero%20Runtime%20Deps-✓-brightgreen"/>
+  <img src="https://img.shields.io/badge/PRs-Welcome-purple"/>
 </p>
 
 ---
