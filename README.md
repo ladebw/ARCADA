@@ -1,6 +1,4 @@
-<p align="center">
-  <h1>ARCADA — AI Runtime & Trust Evaluator</h1>
-</p>
+<h1 align="center">ARCADA — AI Runtime & Trust Evaluator</h1>
 
 <p align="center">
   <img src="assets/preview.png" width="800"/>
