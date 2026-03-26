@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arcada"
+version = "0.1.0"
+description = "ARCADA – AI Runtime & Trust Evaluator: Zero-trust security auditor for AI systems, LLM infrastructure, and supply chains"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+dependencies = [
+    "click>=8.1.0",
+    "fastapi>=0.111.0",
+    "uvicorn[standard]>=0.30.0",
+    "httpx>=0.27.0",
+    "pydantic>=2.7.0",
+    "rich>=13.7.0",
+    "toml>=0.10.2",
+    "packaging>=24.0",
+
+    "pip-audit>=2.7.0",
+    "python-dotenv>=1.0.0",
+    "aiofiles>=23.2.1",
+    "pyyaml>=6.0.1",
+    "slowapi>=0.1.9",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "httpx>=0.27.0",
+]
+
+[project.scripts]
+arcada = "arcada.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["arcada*"]
+
+[tool.ruff]
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "S"]
+ignore = ["E501", "S311", "S112", "S110", "S603", "S607", "F401", "F541", "F841", "E402", "S104", "S102", "F601", "F821", "S324"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["S", "F401"]
