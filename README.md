@@ -23,7 +23,7 @@ ARCADA runs 27 specialized security scanners across your codebase, then uses Dee
 ### From source
 
 ```bash
-git clone https://github.com/your-org/arcada
+git clone https://github.com/ladebw/ARCADA
 cd arcada
 pip install -e ".[dev]"
 ```
@@ -407,7 +407,7 @@ AI security is a growing field with real stakes. Every vulnerability caught prot
 # 1. Fork the repo on GitHub
 
 # 2. Clone your fork
-git clone https://github.com/YOUR_USERNAME/arcada
+git clone https://github.com/ladebw/ARCADA
 cd arcada
 
 # 3. Install in development mode
